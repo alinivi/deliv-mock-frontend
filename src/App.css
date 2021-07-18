@@ -1,1 +1,117 @@
 /* Other rules */
+html {
+  background-color: #e9ebeb;
+}
+
+.header {
+  background-color: white;
+  height: 50px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+}
+
+.topbar {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.header .topbar img {
+  height: 40px;
+}
+
+.restaurant-info {
+  display: flex;
+  padding: 5px 10px;
+  background-color: white;
+}
+
+.restaurant-info-cover {
+  width: 350px;
+  border-radius: 5px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+
+.meals {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.meal {
+  width: 400px;
+  height: 160px;
+  padding: 5px 15px;
+  margin: 10px 10px 10px 0px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.meal img {
+  height: 130px;
+  width: 130px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.meal-description {
+  color: gray;
+  height: 50%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.meal-populaire {
+  color: orange;
+  font-weight: bold;
+}
+
+.panier {
+  width: 300px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.plus-minus-button {
+  background: transparent;
+  color: #00cdbd;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 50%;
+  border: 2px solid #00cdbd;
+}
+
+.valider-panier {
+  background-color: #00cdbd;
+  color: white;
+  border-radius: 5px;
+  width: 80%;
+  text-align: center;
+}
+
+.items-panier {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid lightgray;
+}
+
+.soustotal-panier {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid lightgray;
+}
+
+.line-panier {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
